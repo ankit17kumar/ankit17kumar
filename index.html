@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ankit Kumar · Senior Engineering Manager · Bengaluru</title>
+<meta name="description" content="Senior Engineering Manager with 15+ years. AWS, GCP, Distributed Systems, DORA Metrics, API Lifecycle, Release Engineering. Open to Senior EM and EM roles in Bengaluru and Hyderabad.">
+<!-- ATS-friendly: all key terms in meta and visible text, semantic HTML, no JS-required content -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --white:#fff;--off:#f8f8f6;--surf:#f1f1ee;
+  --border:#e5e5e1;--border2:#ccccc6;
+  --ink:#0f0f0e;--ink2:#38382f;--ink3:#6a6a60;--ink4:#9a9a90;
+  --blue:#1a56db;--blue-lt:#eef2ff;--blue-bd:#c7d2fe;
+  --green:#166534;--green-lt:#dcfce7;--green-bd:#bbf7d0;
+  --teal:#0f766e;--teal-lt:#f0fdf9;--teal-bd:#99f6e4;
+  --amber:#92400e;--amber-lt:#fef3c7;--amber-bd:#fde68a;
+  --slate:#1e3a5f;
+  --font:"Plus Jakarta Sans",system-ui,sans-serif;
+  --mono:"JetBrains Mono",monospace;
+  --max:1160px;--r:10px;--rlg:16px;
+  --sh:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+  --shmd:0 4px 16px rgba(0,0,0,.07),0 2px 6px rgba(0,0,0,.04);
+}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:var(--font);background:var(--white);color:var(--ink);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}
+
+/* ── NAV ─────────────────────────────── */
+nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(18px);border-bottom:1.5px solid var(--border)}
+.nv{max-width:var(--max);margin:0 auto;padding:0 2rem;height:66px;display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+.nb{display:flex;align-items:center;gap:11px;text-decoration:none}
+.nv-av{width:38px;height:38px;border-radius:50%;background:var(--slate);color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0}
+.nv-nm{font-size:14px;font-weight:800;color:var(--ink);letter-spacing:-.3px;line-height:1.1}
+.nv-rl{font-size:11px;color:var(--ink3);line-height:1.1}
+.nl{display:flex;list-style:none}
+.nl a{font-size:12.5px;font-weight:500;color:var(--ink3);text-decoration:none;padding:6px 11px;border-radius:6px;transition:all .15s}
+.nl a:hover,.nl a.on{color:var(--blue);background:var(--blue-lt)}
+.nv-r{display:flex;align-items:center;gap:10px}
+.ow-pill{font-size:11px;font-weight:600;color:var(--green);background:var(--green-lt);border:1px solid var(--green-bd);padding:4px 11px;border-radius:99px;display:flex;align-items:center;gap:5px;white-space:nowrap}
+.ow-d{width:6px;height:6px;border-radius:50%;background:var(--green);animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.nv-hire{font-size:13px;font-weight:700;color:#fff;background:var(--blue);padding:8px 20px;border-radius:8px;text-decoration:none;transition:opacity .15s}
+.nv-hire:hover{opacity:.88}
+
+/* ── HERO ─────────────────────────────── */
+#hero{padding:80px 2rem 72px;border-bottom:1px solid var(--border)}
+.hw{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:1fr 340px;gap:4rem;align-items:start}
+.h-tag{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--teal);background:var(--teal-lt);border:1px solid var(--teal-bd);padding:5px 13px;border-radius:99px;margin-bottom:1.75rem;letter-spacing:.03em}
+.h-tag-d{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:blink 2s ease-in-out infinite}
+.h-name{font-size:clamp(48px,6vw,76px);font-weight:800;letter-spacing:-2.5px;line-height:.95;color:var(--ink);margin-bottom:.6rem}
+.h-name span{color:var(--blue)}
+.h-role{font-size:18px;font-weight:500;color:var(--ink2);margin-bottom:1.5rem;letter-spacing:-.2px}
+.h-pitch{font-size:15px;line-height:1.85;color:var(--ink2);max-width:620px;margin-bottom:2rem}
+.h-pitch strong{color:var(--ink);font-weight:600}
+.h-kw{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:2rem}
+.kw{font-size:11.5px;font-weight:600;color:var(--blue);background:var(--blue-lt);border:1px solid var(--blue-bd);padding:3px 10px;border-radius:99px}
+.kw.green{color:var(--green);background:var(--green-lt);border-color:var(--green-bd)}
+.kw.teal{color:var(--teal);background:var(--teal-lt);border-color:var(--teal-bd)}
+.h-cta{display:flex;gap:.75rem;flex-wrap:wrap}
+.btn-p{font-size:14px;font-weight:700;color:#fff;background:var(--blue);padding:12px 26px;border-radius:8px;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:opacity .15s;box-shadow:0 2px 10px rgba(26,86,219,.22)}
+.btn-p:hover{opacity:.88}
+.btn-s{font-size:14px;font-weight:500;color:var(--ink2);border:1.5px solid var(--border2);padding:11px 18px;border-radius:8px;text-decoration:none;background:var(--white);transition:all .15s;display:inline-flex;align-items:center;gap:7px}
+.btn-s:hover{border-color:var(--blue);color:var(--blue)}
+/* metric cards */
+.hm{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mc{background:var(--off);border:1px solid var(--border);border-radius:var(--rlg);padding:1.25rem 1.4rem}
+.mc.bl{background:var(--blue-lt);border-color:var(--blue-bd)}
+.mc-n{font-size:34px;font-weight:800;letter-spacing:-1.5px;line-height:1;color:var(--ink);margin-bottom:3px}
+.mc.bl .mc-n{color:var(--blue)}
+.mc-l{font-size:12px;font-weight:500;color:var(--ink3)}
+.mc-s{font-size:11px;color:var(--ink4);margin-top:1px}
+
+/* ── SECTIONS ─────────────────────────── */
+.sec{padding:80px 2rem;border-top:1px solid var(--border)}
+.sec.alt{background:var(--off)}
+.wr{max-width:var(--max);margin:0 auto}
+.ey{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--blue);margin-bottom:.5rem;display:flex;align-items:center;gap:10px}
+.ey::after{content:"";flex:1;height:1px;background:var(--border)}
+.st{font-size:clamp(26px,3.5vw,42px);font-weight:800;letter-spacing:-1.5px;color:var(--ink);line-height:1.1;margin-bottom:.75rem}
+.sl{font-size:15px;color:var(--ink3);max-width:520px;line-height:1.7}
+.sh{margin-bottom:2.75rem}
+
+/* ── ABOUT ─────────────────────────────── */
+.ag{display:grid;grid-template-columns:1.4fr 1fr;gap:4rem;align-items:start}
+.pr p{font-size:15px;line-height:1.88;color:var(--ink2)}
+.pr p+p{margin-top:1.1rem}
+.pr strong{color:var(--ink);font-weight:600}
+.itags{display:flex;flex-wrap:wrap;gap:7px;margin-top:1.5rem}
+.itag{font-size:12px;font-weight:500;color:var(--ink2);background:var(--white);border:1px solid var(--border);padding:4px 12px;border-radius:99px}
+.vbox{margin-top:1.5rem;background:var(--amber-lt);border:1.5px solid var(--amber-bd);border-radius:var(--r);padding:1rem 1.25rem;display:flex;gap:12px;align-items:flex-start}
+.vfl{font-size:22px;flex-shrink:0}
+.vtt{font-size:13px;font-weight:700;color:var(--amber);margin-bottom:3px}
+.vtx{font-size:13px;color:var(--ink2);line-height:1.6}
+.acards{display:flex;flex-direction:column;gap:11px}
+.acard{background:var(--white);border:1px solid var(--border);border-radius:var(--rlg);padding:1.2rem 1.4rem;box-shadow:var(--sh)}
+.ach{display:flex;align-items:center;gap:10px;margin-bottom:.5rem}
+.aic{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.att{font-size:13px;font-weight:700;color:var(--ink)}
+.atx{font-size:12.5px;color:var(--ink3);line-height:1.6;padding-left:42px}
+
+/* ── EXPERIENCE ─────────────────────────── */
+/* timeline stripe */
+.el{display:flex;flex-direction:column;position:relative}
+.el::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--blue) 0%,var(--border) 100%)}
+.ei{display:grid;grid-template-columns:200px 1fr;border-top:1px solid var(--border);position:relative}
+.ei:last-child{border-bottom:1px solid var(--border)}
+.ei::before{content:"";position:absolute;left:-5px;top:2.5rem;width:12px;height:12px;border-radius:50%;background:var(--white);border:2px solid var(--border)}
+.ei.cur::before{background:var(--blue);border-color:var(--blue);box-shadow:0 0 0 4px var(--blue-lt)}
+.em{padding:2rem 2.5rem 2rem 0;border-right:1px solid var(--border)}
+.ep{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--blue);letter-spacing:.02em;margin-bottom:5px}
+.ec{font-size:16px;font-weight:800;color:var(--ink);letter-spacing:-.4px;margin-bottom:3px}
+.elo{font-size:12px;color:var(--ink4);margin-bottom:10px}
+.ebd{display:inline-flex;font-size:11px;font-weight:600;padding:3px 9px;border-radius:99px}
+.ecur{background:var(--green-lt);color:var(--green);border:1px solid var(--green-bd)}
+.epst{background:var(--surf);color:var(--ink3);border:1px solid var(--border)}
+.er{padding:2rem 0 2rem 2.5rem}
+.erl{font-size:21px;font-weight:800;letter-spacing:-.5px;color:var(--ink);margin-bottom:.7rem}
+.eds{font-size:14px;line-height:1.8;color:var(--ink2);margin-bottom:1.25rem}
+.egl{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink4);margin:.1.1rem 0 .55rem}
+.egl{margin-top:1.2rem;margin-bottom:.55rem}
+.ebs{display:flex;flex-direction:column;gap:6px}
+.eb{display:flex;align-items:flex-start;gap:9px;font-size:13.5px;color:var(--ink2);line-height:1.68}
+.edot{width:5px;height:5px;border-radius:50%;background:var(--blue);flex-shrink:0;margin-top:7px}
+.etg{display:flex;flex-wrap:wrap;gap:6px;margin-top:1.25rem}
+.etag{font-size:11px;font-weight:600;color:var(--blue);background:var(--blue-lt);border:1px solid var(--blue-bd);padding:3px 10px;border-radius:99px}
+
+/* ── DORA ─────────────────────────────── */
+.dora-p{font-size:15px;line-height:1.8;color:var(--ink2);max-width:740px;margin-bottom:2.25rem}
+.dora-p strong{color:var(--ink);font-weight:600}
+.dg{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:var(--rlg);overflow:hidden;margin-bottom:2.5rem}
+.dc{background:var(--white);padding:1.75rem 1.5rem}
+.di{font-size:26px;margin-bottom:.75rem}
+.dm{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--blue);margin-bottom:.2rem}
+.dv{font-size:22px;font-weight:800;letter-spacing:-.5px;color:var(--ink);margin-bottom:.3rem}
+.dd{font-size:12px;color:var(--ink3);line-height:1.55}
+.ig{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ic{background:var(--white);border:1px solid var(--border);border-radius:var(--rlg);padding:1.75rem;box-shadow:var(--sh)}
+.in{font-size:46px;font-weight:800;letter-spacing:-2px;line-height:1;margin-bottom:6px}
+.in.b{color:var(--blue)}.in.g{color:var(--teal)}.in.a{color:#b45309}
+.il{font-size:14px;font-weight:600;color:var(--ink);margin-bottom:3px}
+.ix{font-size:12px;color:var(--ink3);line-height:1.55}
+
+/* ── SKILLS ─────────────────────────────── */
+.sg3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:14px}
+.sg2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:14px}
+.skc{background:var(--white);border:1px solid var(--border);border-radius:var(--rlg);padding:1.5rem;box-shadow:var(--sh)}
+.skh{display:flex;align-items:center;gap:10px;margin-bottom:1rem;padding-bottom:.9rem;border-bottom:1px solid var(--border)}
+.ski{width:32px;height:32px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.skt{font-size:13px;font-weight:700;color:var(--ink)}
+.pls{display:flex;flex-wrap:wrap;gap:6px}
+.pl{font-size:12px;font-weight:500;color:var(--ink2);background:var(--surf);border:1px solid var(--border);padding:4px 10px;border-radius:99px;transition:all .15s}
+.pl:hover{background:var(--blue-lt);border-color:var(--blue-bd);color:var(--blue)}
+.pl.h{background:var(--blue-lt);border-color:var(--blue-bd);color:var(--blue);font-weight:600}
+
+/* ── EXPERTISE ─────────────────────────── */
+.exg{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.exc{background:var(--white);border:1px solid var(--border);border-radius:var(--rlg);padding:1.5rem;box-shadow:var(--sh)}
+.ext{font-size:13.5px;font-weight:700;color:var(--ink);margin-bottom:.8rem;display:flex;align-items:center;gap:8px}
+.exl{display:flex;flex-direction:column;gap:5px}
+.exi{font-size:13px;color:var(--ink2);display:flex;align-items:center;gap:7px}
+.exdot{width:4px;height:4px;border-radius:50%;background:var(--blue);flex-shrink:0}
+
+/* ── LEADERSHIP ─────────────────────────── */
+.lsg{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.lsc{background:var(--white);border:1px solid var(--border);border-radius:var(--rlg);padding:1.5rem;box-shadow:var(--sh)}
+.lsi{font-size:24px;margin-bottom:.5rem}
+.lst{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:.4rem}
+.lsx{font-size:12px;color:var(--ink3);line-height:1.65}
+
+/* ── EDUCATION ─────────────────────────── */
+.edug{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.educ{background:var(--white);border:1px solid var(--border);border-radius:var(--rlg);padding:1.25rem 1.5rem;display:flex;gap:14px;align-items:flex-start;box-shadow:var(--sh)}
+.edui{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;background:var(--blue-lt)}
+.edud{font-size:14px;font-weight:700;color:var(--ink);margin-bottom:3px;line-height:1.4}
+.edun{font-size:12.5px;color:var(--blue);font-weight:500}
+.eduy{font-size:12px;color:var(--ink4);margin-top:2px}
+
+/* ── CONTACT ─────────────────────────────── */
+#contact{background:var(--slate);padding:80px 2rem;border-top:none}
+.cw{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start}
+.ce{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#818cf8;margin-bottom:.5rem}
+.ct{font-size:clamp(28px,3.5vw,42px);font-weight:800;letter-spacing:-1.5px;color:#fff;line-height:1.1;margin-bottom:1rem}
+.cd{font-size:15px;line-height:1.8;color:#94a3b8;margin-bottom:2rem}
+.cd strong{color:#fff;font-weight:500}
+.cls2{display:flex;flex-direction:column;gap:10px}
+.cl2{display:flex;align-items:center;gap:14px;padding:13px 17px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:var(--rlg);text-decoration:none;transition:background .15s}
+.cl2:hover{background:rgba(255,255,255,.1)}
+.cl2-i{width:38px;height:38px;border-radius:9px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
+.cl2-l{font-size:11px;color:#64748b;letter-spacing:.04em}
+.cl2-v{font-size:13px;font-weight:500;color:#fff}
+.ccard{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:var(--rlg);padding:2.25rem}
+.cctt{font-size:20px;font-weight:800;color:#fff;letter-spacing:-.4px;margin-bottom:.8rem}
+.cctx{font-size:14px;color:#94a3b8;line-height:1.78;margin-bottom:1.5rem}
+.ctgs{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:1.75rem}
+.ctg{font-size:12px;font-weight:600;color:#a5b4fc;background:rgba(99,102,241,.12);border:1px solid rgba(99,102,241,.25);padding:4px 12px;border-radius:99px}
+.bwh{font-size:14px;font-weight:700;color:var(--blue);background:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:opacity .15s}
+.bwh:hover{opacity:.9}
+footer{background:var(--slate);border-top:1px solid rgba(255,255,255,.08);padding:1.5rem 2rem;text-align:center;font-size:12px;color:#475569}
+footer a{color:#64748b;text-decoration:none}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
+.rv.on{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+
+/* responsive */
+@media(max-width:1024px){
+  .hw{grid-template-columns:1fr}.hm{display:none}
+  .ag,.cw{grid-template-columns:1fr}
+  .ei{grid-template-columns:1fr}
+  .em{border-right:none;border-bottom:1px solid var(--border);padding:1.5rem 0 1rem}
+  .er{padding:1rem 0 1.5rem}
+  .dg{grid-template-columns:1fr 1fr}
+  .ig,.sg3,.exg{grid-template-columns:1fr 1fr}
+  .sg2,.lsg,.edug{grid-template-columns:1fr}
+  .nl{display:none}.ow-pill{display:none}
+}
+@media(max-width:600px){
+  .sg3,.exg,.ig,.dg,.lsg{grid-template-columns:1fr}
+  .sec,#hero{padding:60px 1.25rem}
+}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.h-tag-d,.ow-d{animation:none}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+<div class="nv">
+  <a class="nb" href="#">
+    <div class="nv-av">AK</div>
+    <div><div class="nv-nm">Ankit Kumar</div><div class="nv-rl">Senior Engineering Manager</div></div>
+  </a>
+  <ul class="nl">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#dora">DORA &amp; Impact</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#expertise">Expertise</a></li>
+    <li><a href="#leadership">Leadership</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nv-r">
+    <span class="ow-pill"><span class="ow-d"></span>Open to Work</span>
+    <a href="mailto:ankit17.05kumar@gmail.com" class="nv-hire">Hire Me</a>
+  </div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+<div class="hw">
+  <div>
+    <div class="h-tag"><span class="h-tag-d"></span>Available Now &nbsp;&middot;&nbsp; Bengaluru &amp; Hyderabad &nbsp;&middot;&nbsp; Indian Citizen &nbsp;&middot;&nbsp; No Visa Required</div>
+    <h1 class="h-name">Ankit<br><span>Kumar</span></h1>
+    <p class="h-role">Senior Engineering Manager &nbsp;&middot;&nbsp; 15+ Years &nbsp;&middot;&nbsp; Bengaluru, India</p>
+    <p class="h-pitch">
+      <strong>Senior Engineering Manager</strong> with 15+ years building and scaling global engineering organizations across Retail, SaaS, Supply Chain, Media Intelligence, and Enterprise Platforms. Expert in <strong>distributed systems</strong>, <strong>cloud-native architecture</strong> (AWS &amp; GCP), <strong>API lifecycle management</strong>, <strong>DORA metrics</strong>, <strong>release engineering</strong>, <strong>incident management</strong>, <strong>SLA ownership</strong>, and <strong>SAP Greenfield Implementation</strong>. Proven track record of delivering measurable business outcomes.
+    </p>
+    <!-- ATS keyword cloud — visible, indexed, semantically correct -->
+    <div class="h-kw">
+      <span class="kw">Engineering Manager</span>
+      <span class="kw">Distributed Systems</span>
+      <span class="kw">AWS</span>
+      <span class="kw">GCP</span>
+      <span class="kw">Microservices</span>
+      <span class="kw">DORA Metrics</span>
+      <span class="kw green">API Lifecycle Management</span>
+      <span class="kw green">Release Engineering</span>
+      <span class="kw green">Incident Management</span>
+      <span class="kw teal">Node.js</span>
+      <span class="kw teal">React</span>
+      <span class="kw teal">.NET / C#</span>
+      <span class="kw teal">GraphQL</span>
+      <span class="kw">CI/CD</span>
+      <span class="kw">Observability</span>
+      <span class="kw">SLA Management</span>
+      <span class="kw green">SAP Integration</span>
+      <span class="kw">OKR Delivery</span>
+      <span class="kw">Kubernetes</span>
+      <span class="kw">Claude AI</span>
+    </div>
+    <div class="h-cta">
+      <a href="#experience" class="btn-p">View Experience &#x2193;</a>
+      <a href="https://www.linkedin.com/in/ankit-kumar-9033b564/" target="_blank" rel="noopener" class="btn-s">LinkedIn &#x2197;</a>
+      <a href="https://github.com/ankit17kumar" target="_blank" rel="noopener" class="btn-s">GitHub &#x2197;</a>
+      <a href="mailto:ankit17.05kumar@gmail.com" class="btn-s">Email me</a>
+    </div>
+  </div>
+  <div class="hm rv">
+    <div class="mc bl"><div class="mc-n">25<span style="font-size:20px;color:#6278d4">+</span></div><div class="mc-l">Engineers led</div><div class="mc-s">ICs, EMs &amp; PMs</div></div>
+    <div class="mc"><div class="mc-n">234<span style="font-size:18px;color:var(--ink4)">+</span></div><div class="mc-l">Customers onboarded</div><div class="mc-s">Enterprise platform</div></div>
+    <div class="mc"><div class="mc-n">77<span style="font-size:18px;color:var(--ink4)">+</span></div><div class="mc-l">Production releases</div><div class="mc-s">Zero SLA breaches</div></div>
+    <div class="mc bl"><div class="mc-n">40<span style="font-size:20px;color:#6278d4">%</span></div><div class="mc-l">Revenue uplift</div><div class="mc-s">New user onboarding</div></div>
+  </div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="sec alt">
+<div class="wr">
+  <div class="sh"><div class="ey">About me</div><h2 class="st">Engineering instinct.<br>Organizational clarity.</h2></div>
+  <div class="ag">
+    <div class="rv">
+      <div class="pr">
+        <p>I am a <strong>Senior Engineering Manager</strong> with 15+ years of experience building and scaling global engineering teams across Retail, GCC, SaaS, Supply Chain, Media Intelligence, E-Learning, Banking, and Enterprise Platforms. My career spans six companies and eight industries &mdash; each role deepening my ability to translate business strategy into precise technical execution at scale.</p>
+        <p>At <strong>Hy-Vee</strong> (Aug 2023 &ndash; Jun 2026), I lead 25+ engineers across four product lines. Key deliveries: <strong>Retail Pricing Platform</strong> (ReactJS TypeScript, Apollo GraphQL, .NET 6, PostgreSQL v16, SQL Server, OAuth 2.0, Keycloak) and <strong>Product Locator Platform</strong> rolled out to <strong>350+ retail stores and 6,000+ mobile devices</strong>. Architected 6 production microservices following Clean Architecture and SOLID principles, deployed via Docker and Kubernetes. Applied caching strategies that improved application performance by 65%. Centralized logging and monitoring with Splunk. Own full SDLC: architecture, ADRs, CI/CD, SLA management, and incident response.</p>
+        <p>At <strong>Meltwater Software</strong>, I joined as one of the earliest hires in the Bengaluru centre and <strong>scaled the engineering team from 2 to 14 developers</strong>, delivering a global media intelligence platform across 130+ countries. At <strong>ITC Infotech</strong>, I was placed as Tech Lead for <strong>Eurofins Scientific in Brussels, Belgium</strong> &mdash; travelling on-site to gather requirements and architecting a modern React + .NET solution replacing legacy systems.</p>
+        <p>I champion <strong>DORA metrics</strong>, <strong>API lifecycle management</strong>, <strong>release engineering</strong>, <strong>enterprise integrations</strong>, <strong>SAP Greenfield implementation</strong>, and <strong>AI-assisted development</strong> (Claude AI, Gemini, ChatGPT). My OKR-driven delivery culture and Continuous Discovery model drove <strong>40% revenue growth</strong> and a <strong>9% CARIS value increase</strong>.</p>
+      </div>
+      <div class="itags">
+        <span class="itag">Retail</span><span class="itag">Supply Chain</span><span class="itag">SaaS</span>
+        <span class="itag">E-Learning / EdTech</span><span class="itag">Banking</span><span class="itag">Logistics</span>
+        <span class="itag">Media Intelligence</span><span class="itag">SAP</span><span class="itag">GCC</span>
+        <span class="itag">Life Sciences (Eurofins)</span><span class="itag">Enterprise Platforms</span>
+      </div>
+      <div class="vbox">
+        <div class="vfl">&#x1F1EE;&#x1F1F3;</div>
+        <div>
+          <div class="vtt">Visa &amp; Work Authorization</div>
+          <div class="vtx"><strong>Indian Citizen</strong> &mdash; no visa, permit, or sponsorship required anywhere in India. Fully authorized to join in Bengaluru, Hyderabad, or remote. Available within 30 days of offer. International exposure: Brussels (Belgium) and Berlin (Germany).</div>
+        </div>
+      </div>
+    </div>
+    <div class="acards rv d2">
+      <div class="acard"><div class="ach"><div class="aic" style="background:#eef2ff">&#x1F3D7;&#xFE0F;</div><div class="att">Distributed Systems &amp; Cloud Architecture</div></div><div class="atx">AWS &amp; GCP cloud-native microservices. Event-driven architecture, Kubernetes, API platforms, and high-availability distributed system design at enterprise scale.</div></div>
+      <div class="acard"><div class="ach"><div class="aic" style="background:#f0fdf9">&#x1F504;</div><div class="att">API Lifecycle &amp; Enterprise Integrations</div></div><div class="atx">Full API lifecycle: design, versioning, governance, deprecation. SAP ABAP, S4 HANA, CPI Integration, REST/GraphQL patterns, and enterprise data pipelines.</div></div>
+      <div class="acard"><div class="ach"><div class="aic" style="background:#fef3c7">&#x1F4CA;</div><div class="att">DORA Metrics &amp; Release Engineering</div></div><div class="atx">Elite-tier DORA delivery: deployment frequency, lead time for changes, change failure rate, MTTR. CI/CD governance, SLA ownership, and production operations.</div></div>
+      <div class="acard"><div class="ach"><div class="aic" style="background:#fce7f3">&#x1F6A8;</div><div class="att">Incident Management &amp; SLA Ownership</div></div><div class="atx">End-to-end incident lifecycle: SEV1&ndash;SEV4 classification, on-call rotations, runbooks, MTTD/MTTR benchmarking, blameless post-mortems, and SLO-based alerting.</div></div>
+      <div class="acard"><div class="ach"><div class="aic" style="background:#f0fdf4">&#x1F916;</div><div class="att">AI-Assisted Engineering</div></div><div class="atx">Claude AI, Gemini, ChatGPT integrated into engineering workflows. Generative AI for code review, documentation, sprint planning, and developer productivity.</div></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="sec">
+<div class="wr">
+  <div class="sh"><div class="ey">Work experience</div><h2 class="st">Career history</h2><p class="sl">15+ years across six companies and eight industries &mdash; most recent role first.</p></div>
+  <div class="el">
+
+    <!-- ① HY-VEE — Aug 2023 – Jun 2026 (MOST RECENT) -->
+    <div class="ei cur rv">
+      <div class="em">
+        <div class="ep">Aug 2023 &ndash; Jun 2026</div>
+        <div class="ec">Hy-Vee Inc.</div>
+        <div class="elo">GCC &middot; Bengaluru, India (Remote)</div>
+        <span class="ebd ecur">&#x25CF; Current</span>
+      </div>
+      <div class="er">
+        <div class="erl">Senior Engineering Manager</div>
+        <div class="eds">Led 25+ full-stack engineers, Engineering Managers, and Product Managers across four enterprise retail product lines on .NET Core, Node.js, React, GraphQL, AWS, and GCP. Owned full SDLC from architecture and PRD through deployment and production support across Retail Pricing, MRPM, Product Locator, and Mobile Store Operations platforms. Domains: Retail, Grocery E-Commerce, Pricing Platform, SAP.</div>
+
+        <div class="egl">Platform Delivery &amp; Architecture</div>
+        <div class="ebs">
+          <div class="eb"><span class="edot"></span><strong>Retail Pricing Platform:</strong> Led end-to-end architecture and engineering delivery using ReactJS (TypeScript), Apollo GraphQL, .NET 6, PostgreSQL v16, SQL Server, and Keycloak. Defined solution architecture, authored ADRs, implemented secure OAuth 2.0 and RBAC authentication, and established CI/CD, observability, release governance, and QA strategy</div>
+          <div class="eb"><span class="edot"></span><strong>Product Locator Platform:</strong> Built from scratch and rolled out to <strong>350+ retail stores across 6,000+ mobile devices</strong>. Directed cross-functional teams across Android (Kotlin), ReactJS, HapiJS, Node.js, PostgreSQL v16, Keycloak, and Fastlane CI/CD. Owned MoSCoW prioritization, PRDs, release roadmap, UAT, and production rollout. Enabled real-time item lookup and barcode-based shelf location</div>
+          <div class="eb"><span class="edot"></span><strong>Mobile Retail Pricing &amp; Merchandise Platform:</strong> Developed backend services using .NET Core API, PostgreSQL, and Concourse CI covering item maintenance, ordering, receiving, vendor management, and product information workflows</div>
+          <div class="eb"><span class="edot"></span>Architected and owned <strong>6 production microservices</strong> following Clean Architecture and SOLID principles, deployed via Docker and Kubernetes, supporting 350+ retail stores and 6,000+ mobile devices</div>
+          <div class="eb"><span class="edot"></span>Engineered scalable full-stack solutions using .NET Core, React, GraphQL, SQL Server, PostgreSQL, and GCP; applied caching strategies that <strong>improved application performance by 65%</strong></div>
+          <div class="eb"><span class="edot"></span>Secured APIs using <strong>OAuth 2.0</strong>; implemented centralized logging and monitoring with <strong>Splunk</strong>; maintained 99.9% uptime for systems serving 300+ web application users on a 3&ndash;4 week release cadence</div>
+          <div class="eb"><span class="edot"></span>Led cloud migration: AWS Lambda, DynamoDB, EC2, CloudFormation; championed DORA metrics; owned SAP Greenfield Implementation and API lifecycle management across REST and GraphQL integrating SAP enterprise systems</div>
+          <div class="eb"><span class="edot"></span>Scaled org from 2 to 20+ engineers; mentored EMs, Senior Engineers, and Tech Leads; partnered with C-level leaders on roadmaps, budgets, KPIs, and OKR-driven execution</div>
+        </div>
+
+        <div class="egl">Incident Management &amp; SLA Ownership</div>
+        <div class="ebs">
+          <div class="eb"><span class="edot"></span>Defined and enforced SLA tiers (P1: 99.95% uptime, P2: 99.9%) for four mission-critical retail platforms; maintained <strong>zero P1 SLA breaches</strong> across 77+ enterprise product releases</div>
+          <div class="eb"><span class="edot"></span>Built end-to-end incident management framework: on-call rotations, SEV1&ndash;SEV4 severity classification, escalation runbooks, war-room protocols, and executive communication templates for production outages</div>
+          <div class="eb"><span class="edot"></span>Established Datadog SLO monitors and PagerDuty alerting; implemented centralized logging with Splunk; reduced MTTD from 45 minutes to under 8 minutes and achieved MTTR consistently under 1 hour for P1 incidents</div>
+          <div class="eb"><span class="edot"></span>Implemented blameless post-mortem culture: mandatory RCA within 24 hours of SEV1/SEV2 events, action items tracked to closure, learnings shared across engineering</div>
+          <div class="eb"><span class="edot"></span>Designed rollback and disaster recovery playbooks; implemented feature flags and canary deployments to minimize blast radius; applied circuit breaker patterns across distributed microservices</div>
+        </div>
+
+        <div class="egl">Product, Growth &amp; AI</div>
+        <div class="ebs">
+          <div class="eb"><span class="edot"></span>Adopted Continuous Discovery model &mdash; drove <strong>40% revenue growth</strong> from new user onboarding and <strong>9% CARIS value increase</strong> through A/B experimentation and data-driven product decisions</div>
+          <div class="eb"><span class="edot"></span>Delivered 77+ enterprise product releases; onboarded 234+ enterprise customers; deployed Product Locator to 350+ stores and 6,000+ devices</div>
+          <div class="eb"><span class="edot"></span>Introduced AI-assisted development using Claude AI, Gemini, and ChatGPT &mdash; improving developer velocity, code quality, and documentation standards across the team</div>
+        </div>
+
+        <div class="etg">
+          <span class="etag">.NET Core / .NET 6</span><span class="etag">ReactJS (TypeScript)</span><span class="etag">Apollo GraphQL</span>
+          <span class="etag">Node.js / HapiJS</span><span class="etag">PostgreSQL v16</span><span class="etag">SQL Server</span>
+          <span class="etag">Android (Kotlin)</span><span class="etag">Docker</span><span class="etag">Kubernetes</span>
+          <span class="etag">OAuth 2.0</span><span class="etag">Keycloak (RBAC)</span><span class="etag">Fastlane CI/CD</span>
+          <span class="etag">Concourse CI</span><span class="etag">GitHub Actions</span><span class="etag">AWS</span><span class="etag">GCP</span>
+          <span class="etag">Splunk</span><span class="etag">Datadog</span><span class="etag">PagerDuty</span>
+          <span class="etag">Clean Architecture</span><span class="etag">SOLID Principles</span>
+          <span class="etag">SAP Greenfield</span><span class="etag">DORA Metrics</span>
+          <span class="etag">SLA Management</span><span class="etag">Incident Management</span>
+          <span class="etag">API Lifecycle</span><span class="etag">Claude AI</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ② BABBEL GMBH — Oct 2022 – Mar 2023 -->
+    <div class="ei rv">
+      <div class="em">
+        <div class="ep">Oct 2022 &ndash; Mar 2023</div>
+        <div class="ec">Babbel GmbH</div>
+        <div class="elo">Berlin, Germany (On-site)</div>
+        <span class="ebd epst">5 months</span>
+      </div>
+      <div class="er">
+        <div class="erl">Engineering Manager</div>
+        <div class="eds">Led engineering teams at Europe's leading language-learning SaaS platform serving millions of global users across 14 languages. Worked on-site in Berlin &mdash; experienced in German business culture, GDPR compliance, and English/German bilingual stakeholder communication. Domains: EdTech, SaaS, Consumer Platform, B2C.</div>
+        <div class="ebs">
+          <div class="eb"><span class="edot"></span>Managed engineering teams delivering Babbel's language-learning platform; drove platform feature delivery, API quality improvements, and Agile team rituals in a fast-paced product-led organization</div>
+          <div class="eb"><span class="edot"></span>Established Agile and DevOps operating models &mdash; CI/CD pipelines, release engineering governance, automated testing, trunk-based development, and code quality gates</div>
+          <div class="eb"><span class="edot"></span>Owned production SLA commitments of 99.9% uptime; built on-call rotation, SEV1&ndash;SEV3 incident severity matrix, and structured runbooks; reduced MTTR through systematic incident response processes</div>
+          <div class="eb"><span class="edot"></span>Implemented SLO-based alerting with error budget tracking &mdash; weekly error budget reports enabling proactive reliability investment before SLA thresholds were threatened</div>
+          <div class="eb"><span class="edot"></span>Managed enterprise integrations, API versioning strategy, and distributed systems performance optimization for a global multi-region architecture</div>
+          <div class="eb"><span class="edot"></span>Experienced in GDPR-compliant engineering delivery, European regulatory frameworks, and bilingual (English/German) stakeholder communication</div>
+        </div>
+        <div class="etg">
+          <span class="etag">SaaS</span><span class="etag">EdTech</span><span class="etag">CI/CD</span>
+          <span class="etag">Release Engineering</span><span class="etag">Observability</span>
+          <span class="etag">SLA Management</span><span class="etag">Incident Management</span>
+          <span class="etag">SLOs &amp; Error Budgets</span><span class="etag">GDPR</span>
+          <span class="etag">Berlin On-site</span><span class="etag">Distributed Systems</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ③ MELTWATER SOFTWARE — Oct 2018 – Jun 2022 -->
+    <div class="ei rv">
+      <div class="em">
+        <div class="ep">Oct 2018 &ndash; Jun 2022</div>
+        <div class="ec">Meltwater Software</div>
+        <div class="elo">Bengaluru, India</div>
+        <span class="ebd epst">3 yrs 8 mos</span>
+      </div>
+      <div class="er">
+        <div class="erl">Engineering Manager</div>
+        <div class="eds">Joined as one of the earliest engineering hires in the Bengaluru centre. <strong>Scaled the engineering team from 2 to 14 developers</strong> &mdash; hiring, onboarding, and mentoring across frontend, backend, and QA. Managed full engineering delivery of Meltwater's core media intelligence products (Newsletter, Daily Digest Report, Explore, Reach) serving enterprise customers across <strong>130+ countries</strong>. Domains: Media Intelligence, SaaS, News &amp; Social Analytics, Global Platform.</div>
+        <div class="ebs">
+          <div class="eb"><span class="edot"></span>Scaled team from 2 to 14 engineers from the ground up; established hiring, onboarding, mentoring, and career development frameworks across frontend, backend, and QA disciplines</div>
+          <div class="eb"><span class="edot"></span>Designed and evolved platform architecture handling large-scale media monitoring, content aggregation, and analytics pipelines supporting real-time news and social data</div>
+          <div class="eb"><span class="edot"></span>Established engineering practices from scratch: code review standards, CI/CD pipelines, sprint cadence, technical roadmap planning, and observability across distributed services</div>
+          <div class="eb"><span class="edot"></span>Owned SLA commitments for real-time media monitoring APIs &mdash; defined uptime, data freshness, and latency SLAs (sub-5-second data delivery) contractually committed to enterprise clients across 130+ countries</div>
+          <div class="eb"><span class="edot"></span>Built production incident response process from scratch: severity definitions, on-call rota, escalation policy, and customer-facing communication templates for SLA-impacting events</div>
+          <div class="eb"><span class="edot"></span>Introduced circuit breaker patterns and dead-letter queue handling; reduced customer-reported SLA incidents by 60% year-over-year through proactive monitoring and systematic failure resolution</div>
+          <div class="eb"><span class="edot"></span>Drove cross-functional collaboration with global teams across Europe and North America, aligning engineering priorities with business outcomes</div>
+        </div>
+        <div class="etg">
+          <span class="etag">Media Intelligence</span><span class="etag">SaaS</span><span class="etag">REST APIs</span>
+          <span class="etag">Microservices</span><span class="etag">Real-time Systems</span>
+          <span class="etag">API Lifecycle</span><span class="etag">SLA Management</span>
+          <span class="etag">Incident Management</span><span class="etag">Team Scaling (2&#x2192;14)</span>
+          <span class="etag">Global Platform</span><span class="etag">130+ Countries</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ④ ITC INFOTECH — Oct 2016 – Sep 2018 -->
+    <div class="ei rv">
+      <div class="em">
+        <div class="ep">Oct 2016 &ndash; Sep 2018</div>
+        <div class="ec">ITC Infotech</div>
+        <div class="elo">Bengaluru, India &middot; Brussels, Belgium</div>
+        <span class="ebd epst">2 yrs</span>
+      </div>
+      <div class="er">
+        <div class="erl">Lead Consultant &mdash; Tech Lead</div>
+        <div class="eds">Placed as Tech Lead for <strong>Eurofins Scientific, Brussels, Belgium</strong> &mdash; one of Europe's largest laboratory testing and life sciences organizations. Travelled on-site to Brussels to conduct technical discovery with client stakeholders, then returned to India and architected a modern React + .NET full-stack solution to replace legacy systems. Domains: Enterprise Consulting, Life Sciences, React, .NET.</div>
+        <div class="ebs">
+          <div class="eb"><span class="edot"></span>Travelled to Brussels, Belgium &mdash; conducted full technical handover of existing systems, gathered requirements from Eurofins stakeholders, and set up the entire delivery team and technology stack from scratch in India</div>
+          <div class="eb"><span class="edot"></span>Architected a modern React + .NET full-stack solution to replace legacy systems; defined technical standards, development processes, sprint structure, and delivery milestones</div>
+          <div class="eb"><span class="edot"></span>Acted as primary technical bridge between Brussels-based Eurofins client and Bengaluru delivery team; managed cross-continental stakeholder communication and alignment throughout the engagement</div>
+          <div class="eb"><span class="edot"></span>Advised on cloud migration, API lifecycle management, distributed systems design, DevOps transformation, and SLA frameworks covering uptime targets, incident severity classifications, and escalation paths</div>
+        </div>
+        <div class="etg">
+          <span class="etag">React</span><span class="etag">.NET</span><span class="etag">Life Sciences</span>
+          <span class="etag">Enterprise Consulting</span><span class="etag">API Lifecycle</span>
+          <span class="etag">Distributed Systems</span><span class="etag">SLA Frameworks</span>
+          <span class="etag">Brussels (On-site)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TESCO -->
+    <div class="ei rv">
+      <div class="em">
+        <div class="ep">May 2013 &ndash; Sep 2016</div>
+        <div class="ec">Tesco HSC</div>
+        <div class="elo">Bengaluru, India (GCC)</div>
+        <span class="ebd epst">3 yrs 4 mos</span>
+      </div>
+      <div class="er">
+        <div class="erl">Sr. Software Engineer</div>
+        <div class="eds">Contributed to Tesco's Bengaluru GCC &mdash; one of the world's first and largest retail engineering centres &mdash; delivering supply chain and retail platform features for a top-3 global grocer. Operated within a 24/7 production environment with strict uptime and SLA requirements. Domains: Retail, Supply Chain, GCC, UK Retail.</div>
+        <div class="ebs">
+          <div class="eb"><span class="edot"></span>Built and maintained high-availability distributed retail systems supporting Tesco's UK online and in-store operations: pricing, inventory, and order management services serving millions of daily users</div>
+          <div class="eb"><span class="edot"></span>Contributed to supply chain, logistics, and inventory management platform engineering &mdash; built enterprise integrations between warehouse, distribution, and store-facing systems</div>
+          <div class="eb"><span class="edot"></span>Participated in on-call rotation for mission-critical retail systems with 99.99% uptime SLA; responded to production incidents, conducted root cause analysis, and implemented fixes to prevent recurrence</div>
+          <div class="eb"><span class="edot"></span>Gained foundational experience in ITIL-based incident management, change management processes, and release governance in a structured enterprise GCC environment</div>
+          <div class="eb"><span class="edot"></span>Developed deep domain expertise in retail systems, supply chain workflows, and large-scale GCC operating models &mdash; foundation for future engineering leadership roles in retail</div>
+        </div>
+        <div class="etg">
+          <span class="etag">Retail</span><span class="etag">Supply Chain</span><span class="etag">GCC</span>
+          <span class="etag">Distributed Systems</span><span class="etag">High Availability</span>
+          <span class="etag">Enterprise Integrations</span><span class="etag">ITIL</span>
+          <span class="etag">SLA Adherence</span><span class="etag">Incident Response</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- HCL -->
+    <div class="ei rv">
+      <div class="em">
+        <div class="ep">Mar 2011 &ndash; Apr 2013</div>
+        <div class="ec">HCL Technologies</div>
+        <div class="elo">India</div>
+        <span class="ebd epst">2 yrs 1 mo</span>
+      </div>
+      <div class="er">
+        <div class="erl">Software Engineer</div>
+        <div class="eds">Early-career software engineering across banking, enterprise, and logistics domains at a global IT services organization. Built strong foundations in ITIL-based service management, SLA-driven production support, enterprise integrations, and agile delivery in regulated, high-stakes environments.</div>
+        <div class="ebs">
+          <div class="eb"><span class="edot"></span>Developed full-stack banking and enterprise applications across SDLC: requirements, technical design, development, testing, UAT support, and production deployment with change management sign-off</div>
+          <div class="eb"><span class="edot"></span>Contributed to enterprise integration projects: designed data pipelines, implemented API contracts, and built system-to-system communication layers across banking back-office platforms</div>
+          <div class="eb"><span class="edot"></span>Supported production banking systems under ITIL V3 framework &mdash; triaged and resolved incidents within contractually committed SLA response and resolution windows; worked L2/L3 production support rotation</div>
+        </div>
+        <div class="etg">
+          <span class="etag">Banking</span><span class="etag">Enterprise Platforms</span>
+          <span class="etag">Enterprise Integrations</span><span class="etag">ITIL V3</span>
+          <span class="etag">SLA Management</span><span class="etag">L2/L3 Support</span>
+          <span class="etag">Incident Response</span><span class="etag">Logistics</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<!-- DORA + IMPACT -->
+<section id="dora" class="sec alt">
+<div class="wr">
+  <div class="sh"><div class="ey">DORA metrics &amp; career impact</div><h2 class="st">Engineering excellence<br>by the numbers</h2></div>
+  <p class="dora-p">I measure engineering health through <strong>DORA (DevOps Research and Assessment) metrics</strong> &mdash; the gold-standard framework for software delivery performance. At Hy-Vee, I drove improvements across all four DORA indicators, moving the engineering organization into the <strong>Elite performer tier</strong> within 12 months of joining.</p>
+  <div class="dg rv">
+    <div class="dc"><div class="di">&#x1F680;</div><div class="dm">Deployment Frequency</div><div class="dv">Multiple / week</div><div class="dd">From monthly releases to multiple weekly deployments via CI/CD automation, GitHub Actions, and release governance</div></div>
+    <div class="dc"><div class="di">&#x26A1;</div><div class="dm">Lead Time for Changes</div><div class="dv">Hours, not days</div><div class="dd">Reduced from days to hours through automated pipelines, 5-commits principal, and streamlined code review</div></div>
+    <div class="dc"><div class="di">&#x1F6E1;&#xFE0F;</div><div class="dm">Change Failure Rate</div><div class="dv">&lt; 5%</div><div class="dd">Maintained below 5% through automated testing, code quality gates, release governance, and canary releases</div></div>
+    <div class="dc"><div class="di">&#x1F527;</div><div class="dm">MTTR</div><div class="dv">&lt; 1 hour</div><div class="dd">Established incident runbooks, Datadog SLO monitors, PagerDuty alerting, and on-call rotations</div></div>
+  </div>
+  <div class="ig rv d2">
+    <div class="ic"><div class="in b">25<sup style="font-size:22px">+</sup></div><div class="il">Engineers managed</div><div class="ix">Full-stack ICs, Engineering Managers &amp; Product Managers across multiple geographic locations simultaneously</div></div>
+    <div class="ic"><div class="in g">234<sup style="font-size:22px">+</sup></div><div class="il">Enterprise customers</div><div class="ix">Onboarded to Hy-Vee retail platform via redesigned user onboarding program driven by Continuous Discovery model</div></div>
+    <div class="ic"><div class="in a">77<sup style="font-size:22px">+</sup></div><div class="il">Production releases</div><div class="ix">Enterprise-grade releases shipped across 4 product lines with zero P1 SLA breaches</div></div>
+    <div class="ic"><div class="in b">40<sup style="font-size:22px">%</sup></div><div class="il">Revenue uplift</div><div class="ix">From new user onboarding via Continuous Discovery model &mdash; directly tied to A/B experimentation outcomes</div></div>
+    <div class="ic"><div class="in g">9<sup style="font-size:22px">%</sup></div><div class="il">CARIS value increase</div><div class="ix">Total platform value growth through feature enhancement, product optimization, and A/B experimentation</div></div>
+    <div class="ic"><div class="in a">6K<sup style="font-size:22px">+</sup></div><div class="il">Mobile devices deployed</div><div class="ix">Product Locator Platform rolled out to 350+ retail stores across 6,000+ mobile devices; 65% performance improvement via caching</div></div>
+  </div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="sec">
+<div class="wr">
+  <div class="sh"><div class="ey">Technical skills</div><h2 class="st">What I bring to the table</h2></div>
+  <div class="sg3 rv">
+    <div class="skc"><div class="skh"><div class="ski" style="background:#eef2ff">&#x1F3DB;&#xFE0F;</div><div class="skt">Engineering Leadership</div></div><div class="pls"><span class="pl h">Engineering Strategy</span><span class="pl h">OKR-driven Delivery</span><span class="pl h">People Management</span><span class="pl">Org Scaling</span><span class="pl">Technical Roadmaps</span><span class="pl">Stakeholder Management</span><span class="pl">Hiring &amp; Retention</span><span class="pl">Career Development</span><span class="pl">Program Management</span><span class="pl">Agile / Scrum</span><span class="pl">MoSCoW Prioritization</span></div></div>
+    <div class="skc"><div class="skh"><div class="ski" style="background:#f0fdf9">&#x2601;&#xFE0F;</div><div class="skt">Cloud &amp; Architecture</div></div><div class="pls"><span class="pl h">AWS</span><span class="pl h">GCP</span><span class="pl h">Distributed Systems</span><span class="pl h">Microservices</span><span class="pl">Kubernetes</span><span class="pl">Event-Driven Architecture</span><span class="pl">Lambda / Serverless</span><span class="pl">DynamoDB</span><span class="pl">EC2 / CloudFormation</span><span class="pl">PostgreSQL v16</span><span class="pl">SQL Server</span><span class="pl">MongoDB</span><span class="pl">AWS RDS</span></div></div>
+    <div class="skc"><div class="skh"><div class="ski" style="background:#fef3c7">&#x1F4BB;</div><div class="skt">Technology Stack</div></div><div class="pls"><span class="pl h">Node.js</span><span class="pl h">C# / .NET Core</span><span class="pl h">ReactJS (TypeScript)</span><span class="pl">Apollo GraphQL</span><span class="pl">HapiJS</span><span class="pl">Python</span><span class="pl">JavaScript</span><span class="pl">Android (Kotlin)</span><span class="pl">Keycloak (RBAC)</span><span class="pl">OAuth 2.0</span><span class="pl">Fastlane CI/CD</span><span class="pl">Concourse CI</span><span class="pl">Docker</span><span class="pl">Clean Architecture</span><span class="pl">SOLID Principles</span></div></div>
+  </div>
+  <div class="sg2 rv d2">
+    <div class="skc"><div class="skh"><div class="ski" style="background:#eef2ff">&#x1F504;</div><div class="skt">API Lifecycle &amp; Release Engineering</div></div><div class="pls"><span class="pl h">API Lifecycle Management</span><span class="pl h">Release Engineering</span><span class="pl h">Enterprise Integrations</span><span class="pl h">SAP ABAP</span><span class="pl">S4 HANA</span><span class="pl">CPI Integration</span><span class="pl">SAP BASIS</span><span class="pl">SAP Greenfield Implementation</span><span class="pl">API Design &amp; Versioning</span><span class="pl">API Deprecation</span><span class="pl">REST / GraphQL</span><span class="pl">API Gateway</span><span class="pl">Release Governance</span><span class="pl">ADR Authoring</span><span class="pl">Integration Patterns</span></div></div>
+    <div class="skc"><div class="skh"><div class="ski" style="background:#fce7f3">&#x1F4CA;</div><div class="skt">DORA, Incident Management &amp; Observability</div></div><div class="pls"><span class="pl h">DORA Metrics</span><span class="pl h">Incident Management</span><span class="pl h">SLA Management</span><span class="pl h">GitHub Actions</span><span class="pl h">Datadog</span><span class="pl h">Splunk</span><span class="pl">PagerDuty</span><span class="pl">GitLab CI/CD</span><span class="pl">Concourse CI</span><span class="pl">Grafana</span><span class="pl">Kibana</span><span class="pl">AppDynamics</span><span class="pl">SLOs &amp; Error Budgets</span><span class="pl">Blameless Post-mortems</span><span class="pl">RCA</span><span class="pl">Disaster Recovery</span><span class="pl">Site Reliability</span></div></div>
+  </div>
+  <div class="rv d3" style="margin-top:14px">
+    <div class="skc"><div class="skh"><div class="ski" style="background:#f0fdf4">&#x1F916;</div><div class="skt">AI-Assisted Engineering &amp; Emerging Technologies</div></div><div class="pls"><span class="pl h">Claude AI</span><span class="pl h">Gemini AI</span><span class="pl h">ChatGPT / OpenAI</span><span class="pl h">AI-Assisted Development</span><span class="pl">Generative AI</span><span class="pl">LLM Workflows</span><span class="pl">AI Engineering Productivity</span><span class="pl">Prompt Engineering</span></div></div>
+  </div>
+</div>
+</section>
+
+<!-- CORE EXPERTISE -->
+<section id="expertise" class="sec alt">
+<div class="wr">
+  <div class="sh"><div class="ey">Core expertise</div><h2 class="st">Deep specializations</h2></div>
+  <div class="exg rv">
+    <div class="exc"><div class="ext"><span>&#x1F3D7;&#xFE0F;</span>API Engineering</div><div class="exl"><div class="exi"><span class="exdot"></span>REST &amp; GraphQL API design</div><div class="exi"><span class="exdot"></span>API lifecycle management</div><div class="exi"><span class="exdot"></span>Apollo GraphQL / HapiJS</div><div class="exi"><span class="exdot"></span>API versioning &amp; deprecation</div><div class="exi"><span class="exdot"></span>ADR authoring &amp; governance</div></div></div>
+    <div class="exc"><div class="ext"><span>&#x2699;&#xFE0F;</span>System Architecture</div><div class="exl"><div class="exi"><span class="exdot"></span>Distributed systems design</div><div class="exi"><span class="exdot"></span>Microservices architecture</div><div class="exi"><span class="exdot"></span>Event-driven architecture</div><div class="exi"><span class="exdot"></span>High-availability patterns</div><div class="exi"><span class="exdot"></span>Solution architecture &amp; ADRs</div></div></div>
+    <div class="exc"><div class="ext"><span>&#x1F517;</span>Enterprise Integrations</div><div class="exl"><div class="exi"><span class="exdot"></span>SAP ABAP &amp; SAP Greenfield</div><div class="exi"><span class="exdot"></span>S4 HANA &amp; CPI Integration</div><div class="exi"><span class="exdot"></span>SAP BASIS &amp; Security</div><div class="exi"><span class="exdot"></span>Enterprise data pipelines</div><div class="exi"><span class="exdot"></span>Keycloak RBAC &amp; auth</div></div></div>
+    <div class="exc"><div class="ext"><span>&#x1F6A8;</span>Incident Management</div><div class="exl"><div class="exi"><span class="exdot"></span>SEV1&ndash;SEV4 classification</div><div class="exi"><span class="exdot"></span>On-call rotation design</div><div class="exi"><span class="exdot"></span>Runbook &amp; DR playbooks</div><div class="exi"><span class="exdot"></span>Blameless post-mortems / RCA</div><div class="exi"><span class="exdot"></span>MTTD &amp; MTTR optimization</div></div></div>
+    <div class="exc"><div class="ext"><span>&#x1F680;</span>Release Engineering</div><div class="exl"><div class="exi"><span class="exdot"></span>CI/CD pipeline design</div><div class="exi"><span class="exdot"></span>Release governance frameworks</div><div class="exi"><span class="exdot"></span>Feature flags &amp; canary releases</div><div class="exi"><span class="exdot"></span>Blue/green deployments</div><div class="exi"><span class="exdot"></span>Fastlane CI/CD (mobile)</div></div></div>
+    <div class="exc"><div class="ext"><span>&#x1F4CA;</span>Product &amp; Data</div><div class="exl"><div class="exi"><span class="exdot"></span>A/B testing &amp; experimentation</div><div class="exi"><span class="exdot"></span>Continuous Discovery model</div><div class="exi"><span class="exdot"></span>MoSCoW prioritization</div><div class="exi"><span class="exdot"></span>Engineering metrics &amp; KPIs</div><div class="exi"><span class="exdot"></span>IIM Calcutta &mdash; Business Analytics</div></div></div>
+  </div>
+</div>
+</section>
+
+<!-- LEADERSHIP -->
+<section id="leadership" class="sec">
+<div class="wr">
+  <div class="sh"><div class="ey">Leadership philosophy</div><h2 class="st">How I lead engineering teams</h2><p class="sl">Principles built across 15+ years and six companies &mdash; from early-career IC to leading organizations of 25+.</p></div>
+  <div class="lsg rv">
+    <div class="lsc"><div class="lsi">&#x1F3AF;</div><div class="lst">Outcome over activity</div><div class="lsx">OKR-driven execution. Teams own measurable business outcomes, not just delivery tasks. Every sprint connects to a clear goal.</div></div>
+    <div class="lsc"><div class="lsi">&#x1F6E1;&#xFE0F;</div><div class="lst">Psychological safety first</div><div class="lsx">Engineers do their best work when they can take risks, speak up, and learn from failure without blame &mdash; blameless culture, always.</div></div>
+    <div class="lsc"><div class="lsi">&#x1F4D0;</div><div class="lst">High engineering standards</div><div class="lsx">Code reviews, 5-commits principal, automated testing, ADRs, and release governance. Quality is a culture, not a phase.</div></div>
+    <div class="lsc"><div class="lsi">&#x1F331;</div><div class="lst">Grow people deliberately</div><div class="lsx">Structured career plans, stretch assignments, and real mentorship. I have grown ICs into EMs and EMs into senior leaders.</div></div>
+    <div class="lsc"><div class="lsi">&#x1F52D;</div><div class="lst">Technical vision clarity</div><div class="lsx">Multi-year roadmaps, solution architecture, API lifecycle strategy, and tech debt management &mdash; always anchored to business direction.</div></div>
+    <div class="lsc"><div class="lsi">&#x1F4CA;</div><div class="lst">Data-driven decisions</div><div class="lsx">DORA metrics, MTTD/MTTR tracking, A/B experiments, SLO dashboards, and error budget reports drive every significant call.</div></div>
+    <div class="lsc"><div class="lsi">&#x1F91D;</div><div class="lst">Stakeholder partnership</div><div class="lsx">C-suite alignment, cross-functional collaboration, and translating business strategy into actionable engineering execution.</div></div>
+    <div class="lsc"><div class="lsi">&#x26A1;</div><div class="lst">Continuous improvement</div><div class="lsx">Retrospectives, blameless post-mortems, and a culture that treats every incident and every sprint as a learning opportunity.</div></div>
+  </div>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="sec alt">
+<div class="wr">
+  <div class="sh"><div class="ey">Education &amp; certifications</div><h2 class="st">Academic &amp; professional credentials</h2></div>
+  <div class="edug rv">
+    <div class="educ"><div class="edui">&#x1F393;</div><div><div class="edud">Executive Programme &mdash; Business Analytics &amp; Data Visualization</div><div class="edun">IIM Calcutta &mdash; Indian Institute of Management</div><div class="eduy">2019 &middot; Executive Education</div></div></div>
+    <div class="educ"><div class="edui">&#x1F4DA;</div><div><div class="edud">Bachelor of Computer Application (BCA)</div><div class="edun">Bangalore University</div><div class="eduy">2010 &middot; Undergraduate Degree</div></div></div>
+    <div class="educ"><div class="edui">&#x2601;&#xFE0F;</div><div><div class="edud">AWS Solutions Architect Associate</div><div class="edun">Amazon Web Services (AWS)</div><div class="eduy">Certification &middot; Cloud Architecture</div></div></div>
+    <div class="educ"><div class="edui">&#x2699;&#xFE0F;</div><div><div class="edud">ITIL V3 Foundation &middot; Certified Scrum Master (CSM) &middot; Scrum Product Owner</div><div class="edun">Run the Bank (RTB) &middot; Retail Supply Chain Management</div><div class="eduy">Certifications &middot; Service Management &amp; Agile</div></div></div>
+    <div class="educ"><div class="edui">&#x1F537;</div><div><div class="edud">SAP Training &mdash; ABAP Development, Basis, Security &amp; Integrations</div><div class="edun">SAP</div><div class="eduy">Professional Training &middot; SAP Greenfield / Enterprise Systems</div></div></div>
+    <div class="educ"><div class="edui">&#x1F310;</div><div><div class="edud">Languages</div><div class="edun">English C1 (Professional) &middot; Hindi C2 (Native) &middot; German A2 (Basic &mdash; actively improving)</div><div class="eduy">International exposure: Brussels, Belgium &middot; Berlin, Germany</div></div></div>
+  </div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<div class="cw">
+  <div>
+    <div class="ce">Get in touch</div>
+    <h2 class="ct">Let&rsquo;s build<br>something great.</h2>
+    <p class="cd">Actively seeking <strong>Senior Engineering Manager</strong> and <strong>Engineering Manager</strong> roles in <strong>Bengaluru and Hyderabad</strong>. Indian citizen &mdash; no visa or sponsorship required. Also open to GCC, international product companies, and Europe (Germany &middot; Poland &middot; Sweden) with relocation support. Available within 30 days.</p>
+    <div class="cls2">
+      <a href="mailto:ankit17.05kumar@gmail.com" class="cl2"><div class="cl2-i">&#x2709;&#xFE0F;</div><div><div class="cl2-l">EMAIL</div><div class="cl2-v">ankit17.05kumar@gmail.com</div></div></a>
+      <a href="tel:+919916364288" class="cl2"><div class="cl2-i">&#x1F4F1;</div><div><div class="cl2-l">PHONE / WHATSAPP</div><div class="cl2-v">+91 99163 64288</div></div></a>
+      <a href="https://www.linkedin.com/in/ankit-kumar-9033b564/" target="_blank" rel="noopener" class="cl2"><div class="cl2-i">&#x1F517;</div><div><div class="cl2-l">LINKEDIN</div><div class="cl2-v">linkedin.com/in/ankit-kumar-9033b564</div></div></a>
+      <a href="https://github.com/ankit17kumar" target="_blank" rel="noopener" class="cl2"><div class="cl2-i">&#x2328;&#xFE0F;</div><div><div class="cl2-l">GITHUB</div><div class="cl2-v">github.com/ankit17kumar</div></div></a>
+      <a href="https://ankit17kumar.github.io/ankit17kumar/" target="_blank" rel="noopener" class="cl2"><div class="cl2-i">&#x1F310;</div><div><div class="cl2-l">PORTFOLIO</div><div class="cl2-v">ankit17kumar.github.io/ankit17kumar</div></div></a>
+    </div>
+  </div>
+  <div class="ccard rv">
+    <div class="cctt">Open to Senior EM &amp; EM Roles</div>
+    <div class="cctx">Need a leader who owns the full picture &mdash; distributed systems, API lifecycle, DORA metrics, release engineering, SLA management, incident management, SAP Greenfield, enterprise integrations, team growth, and C-suite alignment?<br><br>15+ years. 6 companies. 8 industries. 25+ engineers led. 7,000+ devices deployed. 234+ customers onboarded. 40% revenue uplift. Zero P1 SLA breaches. No visa required in India.</div>
+    <div class="ctgs">
+      <span class="ctg">Senior EM</span><span class="ctg">Engineering Manager</span>
+      <span class="ctg">Bengaluru</span><span class="ctg">Hyderabad</span>
+      <span class="ctg">GCC</span><span class="ctg">Retail &amp; E-Commerce</span>
+      <span class="ctg">&#x1F1EE;&#x1F1F3; Indian Citizen</span><span class="ctg">No Visa Required</span>
+      <span class="ctg">Europe: DE &middot; PL &middot; SE (with relocation)</span>
+    </div>
+    <a href="mailto:ankit17.05kumar@gmail.com" class="bwh">Send me a message &#x2192;</a>
+  </div>
+</div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Ankit Kumar &nbsp;&middot;&nbsp; Senior Engineering Manager &nbsp;&middot;&nbsp; Bengaluru, India &nbsp;&middot;&nbsp;
+  <a href="mailto:ankit17.05kumar@gmail.com">ankit17.05kumar@gmail.com</a> &nbsp;&middot;&nbsp; +91 99163 64288 &nbsp;&middot;&nbsp;
+  <a href="https://ankit17kumar.github.io/ankit17kumar/" target="_blank">ankit17kumar.github.io</a></p>
+</footer>
+
+<script>
+const io = new IntersectionObserver(
+  es => es.forEach(e => { if(e.isIntersecting) e.target.classList.add("on") }),
+  { threshold: 0.06 }
+);
+document.querySelectorAll(".rv").forEach(el => io.observe(el));
+const secs = document.querySelectorAll("section[id]");
+const navAs = document.querySelectorAll(".nl a");
+window.addEventListener("scroll", () => {
+  let cur = "";
+  secs.forEach(s => { if(window.scrollY >= s.offsetTop - 80) cur = s.id });
+  navAs.forEach(a => { a.classList.toggle("on", a.getAttribute("href") === "#" + cur) });
+}, { passive: true });
+</script>
+</body>
+</html>
