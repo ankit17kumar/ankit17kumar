@@ -33,4 +33,4 @@
 
 ## 📫 Connect
 
-[LinkedIn](https://www.linkedin.com/in/[your-handle]) · Newsletter: *Agentic AI for Engineering Leaders* [link]
+🌐 [Portfolio](https://ankit17kumar.github.io/ankit-kumar/) · [LinkedIn](https://www.linkedin.com/in/ankit-kumar-9033b564/) · ✉️ ankit17.05kumar@gmail.com
